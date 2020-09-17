@@ -91,7 +91,8 @@ function init() {
     }
     fs.writeFileSync(outputPath, render(teamMembers), "utf-8")
   }
-  )}
+  )
+}
 
 
 init();

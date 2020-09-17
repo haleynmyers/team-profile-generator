@@ -6,6 +6,8 @@
 ## Description
 After completing this program, you will have a directory that displays a profile card for each employee. Each displays their name, role, id number, email, and information relevant to their position. 
 
+![Profile generator with three cards](/output/profile-screenshot.png)
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -15,10 +17,12 @@ After completing this program, you will have a directory that displays a profile
 * [License](#license)
 
 ## Installation
-The attached package.json outlines the required dependencies as inquirer and jest. In the terminal, run `npm install` and it should add those two automatically. If not, you can run `npm inquirer` and `npm jest`
+The attached package.json outlines the required dependencies as inquirer and path. In the terminal, run `npm install` and it should add those two automatically. If not, you can run `npm install inquirer` and `npm install path` and `npm install fs`. 
+Once your dependencies are installed, run the program with the command `node app.js`.
 
 ## Usage
 This application is made to run through CLI in an integrated terminal. Answer the inquirer prompts for each employee. The page will be generated and can then be sent via link and edited as needed.
+Begin the program by running the command `node app.js`.
 
 ## Tests
 Run the following command:  
